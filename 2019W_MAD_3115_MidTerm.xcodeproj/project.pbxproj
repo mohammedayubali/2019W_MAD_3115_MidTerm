@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1E0F752242F6EF001DC65C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E0F742242F6EF001DC65C /* Student.swift */; };
+		9B1E0F772242F72D001DC65C /* StudentEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E0F762242F72D001DC65C /* StudentEntryViewController.swift */; };
 		9BAC0C062241C855002252C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C052241C855002252C8 /* AppDelegate.swift */; };
 		9BAC0C082241C855002252C8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C072241C855002252C8 /* LoginViewController.swift */; };
 		9BAC0C0B2241C855002252C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0C092241C855002252C8 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B1E0F742242F6EF001DC65C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B1E0F762242F72D001DC65C /* StudentEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEntryViewController.swift; sourceTree = "<group>"; };
 		9BAC0C022241C855002252C8 /* 2019W_MAD_3115_MidTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2019W_MAD_3115_MidTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAC0C052241C855002252C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BAC0C072241C855002252C8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				9BAC0C0C2241C857002252C8 /* Assets.xcassets */,
 				9BAC0C0E2241C857002252C8 /* LaunchScreen.storyboard */,
 				9BAC0C112241C857002252C8 /* Info.plist */,
+				9B1E0F742242F6EF001DC65C /* Student.swift */,
+				9B1E0F762242F72D001DC65C /* StudentEntryViewController.swift */,
 			);
 			path = 2019W_MAD_3115_MidTerm;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAC0C082241C855002252C8 /* LoginViewController.swift in Sources */,
+				9B1E0F752242F6EF001DC65C /* Student.swift in Sources */,
+				9B1E0F772242F72D001DC65C /* StudentEntryViewController.swift in Sources */,
 				9BAC0C352241C898002252C8 /* Student.swift in Sources */,
 				9BAC0C3A2241C8DC002252C8 /* StudentResultViewController.swift in Sources */,
 				9BAC0C382241C8C7002252C8 /* StudentEntryViewController.swift in Sources */,
