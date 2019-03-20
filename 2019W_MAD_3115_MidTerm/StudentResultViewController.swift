@@ -1,5 +1,5 @@
 //
-//  StudentEntryViewController.swift
+//  StudentResultViewController.swift
 //  2019W_MAD_3115_MidTerm
 //
 //  Created by MacStudent on 2019-03-20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StudentEntryViewController: UIViewController, UIPickerDelegate, UiPickerDataSource {
+class StudentResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

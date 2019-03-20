@@ -20,11 +20,22 @@ class LoginViewController: UIViewController {
 
 
     @IBAction func btn_Click(_ sender: UIButton) {
-        if(UserText == "admin" && UserPassword == "123" )
+        if(UserText == "mohammedayub@gmail.com" && UserPassword == "123" )
         {
+            print("Login Success")
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let svc =
+            let svc = sb.intantiateViewController(withIdenifer: "sentryVc") as! StudentEntryViewController
+            self.present(svc, animated: true)
+            
         
     }
+        else{
+            let alert = UIAlertController(title: "Alert", message: "Invalid User", preferredStyle: .actionSheet)
+            let actionDefault = UIAlertAction(title: "OK", style: .default, handler: nil)
+            let actionCancel = UIAlertAction(title: "Cancel", style: .cancel, handler: {(action:UIAlertAction) in
+                print("Cancel")
+            })
+        }
 }
 
+}
