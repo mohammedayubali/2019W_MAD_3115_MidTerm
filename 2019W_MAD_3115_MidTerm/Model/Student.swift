@@ -7,3 +7,16 @@
 //
 
 import Foundation
+struct Student {
+    //var studentId = C0747751
+    var studentName = "Mohammed Ayub Ali"
+    var gender = "M"
+    var courseName = "MADT"
+    var email = "mohammed.ayubali0007@gmail.com"
+    var marks = [80.0,56.0,100.0,70.0,100]
+    
+    
+}
+//Student id, Student name, Gender, Course Name, Student email address,
+//Student birthdate, Marks of 5 subjects (User Array to Store marks),
+//percentage, totalMarks and grade
